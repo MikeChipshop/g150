@@ -2238,12 +2238,23 @@ nav.girt_tab-nav li {
  Merchandise
 ------------------------------------------------ */
 
+.girt_merch-hero {
+	position:relative;
+}
+.girt_merch-hero img {
+	max-width:100%;
+	height:auto;
+}
 .girt_merchandise-header {
 	background-color: #dc3638;
     display: inline-block;
     margin-top: 40px;
     margin-bottom: 40px;
 	padding: 20px 40px 20px 80px;
+}
+.girt_merch-hero .girt_merchandise-header {
+	position:absolute;
+	bottom:0px;
 }
 .girt_merchandise-header h1 {
 	color: #fff;

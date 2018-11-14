@@ -1,8 +1,23 @@
 <?php get_header(); ?>
 <section class="girt_merchandise-wrap">
-	<header class="girt_merchandise-header">
-		<h1>Merchandise</h1>
-	</header>
+	<?php if(get_field('merchandise_hero_image')): ?>
+		<div class="girt_merch-hero">
+			<?php
+				$attachment_id = get_field('merchandise_hero_image');
+				$size = "full";
+				$image = wp_get_attachment_image_src( $attachment_id, $size );
+			?>
+			<img src="<?php echo $image[0] ?>" alt="Girton Merchandise">
+			<header class="girt_merchandise-header">
+				<h1>Merchandise</h1>
+			</header>
+		</div>
+	<?php else: ?>
+		<header class="girt_merchandise-header">
+			<h1>Merchandise</h1>
+		</header>
+	<?php endif; ?>
+	
 	<div class="girt_wrap">		
 		<main class="girt_merchandise-main">
 			<?php 
