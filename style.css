@@ -2295,6 +2295,9 @@ nav.girt_tab-nav li {
     display: block;
     margin: 0 auto;
 }
+.girt_product-item-meta {
+	padding-top:15px;
+}
 .girt_product-item-buy a {
 	color: #000;
     text-decoration: none;
