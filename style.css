@@ -2295,12 +2295,6 @@ nav.girt_tab-nav li {
     display: block;
     margin: 0 auto;
 }
-.girt_product-item-price {
-	font-weight: 700;
-    padding: 10px 0px;
-    font-size: 20px;
-    color: #dc3539;
-}
 .girt_product-item-buy a {
 	color: #000;
     text-decoration: none;
