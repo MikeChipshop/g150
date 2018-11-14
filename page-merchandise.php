@@ -26,9 +26,6 @@
 								<h2><?php the_title(); ?></h2>
 							</div>
 							<div class="girt_product-item-meta">
-								<div class="girt_product-item-price">
-									<?php the_field('product_price'); ?>
-								</div>
 								<div class="girt_product-item-buy">
 									<a target="_blank" href="<?php the_field('product_button_link'); ?>">Buy now</a>
 								</div>
