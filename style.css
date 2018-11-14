@@ -2753,18 +2753,7 @@ sub {
     	-webkit-flex-basis: 25%;
     	-ms-flex-preferred-size: 25%;
     	flex-basis: 25%;
-	}
-
-	/* Merchandise */
-
-	.girt_merchandise-main ul li {
-		-webkit-flex-basis: 33.333%;
-		-ms-flex-preferred-size: 33.333%;
-		flex-basis: 33.333%;
-	}
-	.girt_merchandise-main ul li:nth-of-type(3n) {
-    	border-right: 0px solid #000;
-	}
+	}	
 
 	/* Event Filters */
 	.girt_event-landing-wrap .girt_wrap {
@@ -2943,6 +2932,10 @@ sub {
 		-webkit-flex-basis: 50%;
 		-ms-flex-preferred-size: 50%;
 		flex-basis: 50%;
+	}
+	
+	.girt_merchandise-main ul li:nth-of-type(3n) {
+    	border-right: 1px solid #000;
 	}
 	.girt_merchandise-main ul li:nth-of-type(2n) {
     	border-right: 0px solid #000;
@@ -3182,6 +3175,9 @@ sub {
 		-ms-flex-preferred-size: 100%;
 		flex-basis: 100%;
 		border-right: 0px solid #000;
+	}
+	.girt_merchandise-main ul li:nth-of-type(3n) {
+    	border-right: 0px solid #000;
 	}
 
 	.girt_hero-banner-titles h1 {
