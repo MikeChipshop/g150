@@ -27,7 +27,7 @@
 							</div>
 							<div class="girt_product-item-meta">
 								<div class="girt_product-item-buy">
-									<a target="_blank" href="<?php the_field('product_button_link'); ?>">Buy now</a>
+									<a target="_blank" href="<?php the_field('product_button_link'); ?>">Browse</a>
 								</div>
 							</div>
 						</div>
