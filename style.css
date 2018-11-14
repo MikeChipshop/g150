@@ -2280,9 +2280,9 @@ nav.girt_tab-nav li {
     flex-flow: row wrap;
 }
 .girt_merchandise-main ul li {
-	-webkit-flex-basis: 25%;
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
+	-webkit-flex-basis: 33.333%;
+    -ms-flex-preferred-size: 33.333%;
+    flex-basis: 33.333%;
 	padding: 0px 20px 40px 20px;
 	border-right: 1px solid #000;
     margin-bottom: 40px;
