@@ -2240,11 +2240,16 @@ nav.girt_tab-nav li {
 
 .girt_merch-hero {
 	position:relative;
-	margin-bottom: 80px;
 }
 .girt_merch-hero img {
 	max-width:100%;
 	height:auto;
+}
+.girt_merch-intro {
+	font-size: 22px;
+    text-align: center;
+    padding: 80px 0px;
+    line-height: 1.4;
 }
 .girt_merchandise-header {
 	background-color: #dc3638;
@@ -2256,6 +2261,7 @@ nav.girt_tab-nav li {
 .girt_merch-hero .girt_merchandise-header {
 	position:absolute;
 	bottom:0px;
+	left:0px;
 }
 .girt_merchandise-header h1 {
 	color: #fff;

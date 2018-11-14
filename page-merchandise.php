@@ -20,6 +20,9 @@
 	
 	<div class="girt_wrap">		
 		<main class="girt_merchandise-main">
+			<div class="girt_merch-intro">
+				<?php the_field('merch_page_intro'); ?>
+			</div>
 			<?php 
 				$prodargs = array(
 					'post_type' => 'products',
